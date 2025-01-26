@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Project
+        </title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        
+        <div class="first">
+            <h1>Full Stack Project</h1>
+            <form action="" method="post">
+                <input type="number" placeholder="enter a number1" required name="num1">
+                <select name="opr" required>
+                    <option value="select" disabled selected>select</option>
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="mul">x</option>
+                    <option value="div">/</option>
+                </select>
+                <input type="number" placeholder="enter a number2" required name="num2">
+                <button type="submit">Caluclate</button>
+            </form>
+        </div>
+        <div class="out">
+            {{output}}
+        </div>
+    </body>
+</html>
